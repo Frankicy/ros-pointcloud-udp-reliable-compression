@@ -1,0 +1,50 @@
+# ROS build outputs
+build/
+devel/
+install/
+log/
+logs/
+
+# Benchmark runtime outputs
+benchmark_results/
+*.bag
+*.db3
+*.pcd
+*.ply
+*.csv
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Large generated files
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
